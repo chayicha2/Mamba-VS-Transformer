@@ -20,8 +20,8 @@ Both models were able to solve the same problem and achieve similar accuracy. Ho
 ### Model Parameter Comparison
 | Metric                     | Difference |
 |----------------------------|------------|
-| Total Parameters           | 1771       |
-| Trainable Parameters       | 1771       |
+| Mamba Parameters           | 1060       |
+| Transformer Parameters     | 2831       |
 
 The **Mamba** model demonstrated faster training time and lower parameter count compared to the **Transformer** model, making it a more efficient alternative for tasks that require quick iterations and fewer computational resources, especially for long sequence tasks.
 
